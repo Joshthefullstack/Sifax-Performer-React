@@ -1,0 +1,155 @@
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 270px;
+  padding: 30px;
+  flex: 1;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stat-card p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.green { border-bottom: 5px solid #28a745; }
+.yellow { border-bottom: 5px solid #ffc107; }
+.pink { border-bottom: 5px solid #e83e8c; }
+.blue { border-bottom: 5px solid #007bff; }
+
+.chart-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.chart-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 600px;
+}
+
+
+.table-section {
+  margin-top: 40px;
+} 
+
+
+.table-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.table-card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.complaint-table th,
+.complaint-table td {
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.complaint-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status.pending {
+  background-color: #fff5e6;
+  color: #ff9800;
+}
+
+.status.complete {
+  background-color: #e6f7e6;
+  color: #28a745;
+}
+
+.status.overdue {
+  background-color: #fdeaea;
+  color: #dc3545;
+}
+
+.status.in-progress {
+  background-color: #e6f1ff;
+  color: #007bff;
+}
+
+
+.stat-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.stat-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.stat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+}

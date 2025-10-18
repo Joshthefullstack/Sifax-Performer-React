@@ -5,9 +5,129 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.width-small{
+  width: 90px;
+}
+
+.width-big{
+  width: 260px;
+}
+
+.menu-small{
+  width: 38px;
+  /* padding: 4px 4px; */
+  padding-left: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding-right: 0px;
+  padding-top: 18px;
+  margin-left: 24px;
+  list-style: none;
+  border-radius: 10px;
+  /* background-color: #f46607; */
+}
+
+.menu-small-active{
+   width: 38px;
+  /* padding: 4px 4px; */
+  padding-left: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding-right: 0px;
+  padding-top: 18px;
+  margin-left: 24px;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #f46607;
+}
+
+
+
+.menu-link{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* padding: 0; */
+}
+
+.menu-link > .menu-icon{
+  /* border: 1px solid red; */
+  margin: 0;
+  margin-top: -4px;
+}
+
+.menu-down{
+width: 18px;
+  height: 18px;
+  /* fill: #fff;
+  color: white;
+  color: #fff; */
+  border: 1px solid red;
+}
+
+.menu-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-flex > .menu-down{
+  transform: translateY(50deg);
+}
+
+
+.arrow-icon {
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+  transition: transform 0.3s ease;
+}
+
+.arrow-icon.open {
+  transform: rotate(90deg);
+}
+
+
+.submenu {
+  /* list-style: circle; */
+  margin-left: -25px;
+  /* margin-top: 5px; */
+  transition: all 2s ease-in-out;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  padding: 4px;
+  display: inline-block;
+}
+
+.notification-dd{
+  position: relative;
+  left: -350px;
+}
+
+.user-dd{
+  position: relative;
+  left: -180px;
+}
+
+.avatarDisplay{
+  display: flex;
+  align-items: center;
 }
