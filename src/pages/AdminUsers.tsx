@@ -12,11 +12,16 @@ const AdminUsers = () => {
         <div className="layout-page">
           <Navbar />
 
-          <AdminUsersContent/>
+          <AdminUsersContent />
 
           <Footer />
         </div>
       </div>
+      {/* <!-- Overlay --> */}
+      <div className="layout-overlay layout-menu-toggle"></div>
+
+      {/* <!-- Drag Target Area To SlideIn Menu On Small Screens --> */}
+      <div className="drag-target"></div>
     </div>
   );
 };

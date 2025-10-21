@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../assets/css/style.css";
+import "../../assets/css/style.css"; 
+import "../../assets/vendor/libs/node-waves/node-waves.css"
 import "../../assets/vendor/css/rtl/core.css"
+import "../../assets/css/demo.css"
+import "../../assets/vendor/css/rtl/theme-semi-dark.css"
+import "../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
 import {
   FaUser,
   FaTasks,
@@ -45,9 +49,8 @@ const Sidebar: React.FC = () => {
   return (
     <aside
       id="layout-menu"
-      className={`layout-menu menu-vertical menu bg-menu-theme transition-all duration-200 ease-in-out ${
-        sidebarExpanded ? "width-big" : "width-small"
-      }`}
+      className={`layout-menu menu-vertical menu bg-menu-theme transition-all duration-200 ease-in-out ${sidebarExpanded ? "width-big" : "width-small"
+        }`}
       onMouseEnter={() => collapsed && setHovered(true)}
       onMouseLeave={() => collapsed && setHovered(false)}>
       <div className="app-brand demo">
@@ -123,9 +126,8 @@ const Sidebar: React.FC = () => {
       <ul className="menu-inner py-1">
         {/* <!-- Dashboards --> */}
         <li
-          className={`active ${
-            sidebarExpanded ? "menu-item" : "menu-small-active"
-          }`}>
+          className={`active ${sidebarExpanded ? "menu-item" : "menu-small-active"
+            }`}>
           <a href="index.html" className="menu-link">
             <i className="menu-icon tf-icons ri-dashboard-line"></i>
             {/* <div data-i18n="Dashboard">Dashboard</div> */}
@@ -141,9 +143,8 @@ const Sidebar: React.FC = () => {
               e.preventDefault(); // 🔥 Prevents page reload
               toggleMenu("users");
             }}
-            className={`menu-link  ${
-              openMenu === "users" ? "bg-[#3b2a1f]" : ""
-            }`}>
+            className={`menu-link  ${openMenu === "users" ? "bg-[#3b2a1f]" : ""
+              }`}>
             <i className="menu-icon tf-icons ri-group-2-line"></i>
             {sidebarExpanded && (
               <div data-i18n="Users" className="menu-flex">
@@ -151,9 +152,8 @@ const Sidebar: React.FC = () => {
                 {sidebarExpanded && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`arrow-icon ${
-                      openMenu === "users" ? "open" : ""
-                    }`}
+                    className={`arrow-icon ${openMenu === "users" ? "open" : ""
+                      }`}
                     height="20"
                     width="20"
                     viewBox="0 0 640 640">
@@ -187,7 +187,7 @@ const Sidebar: React.FC = () => {
 
         {/* <!-- Task --> */}
         <li className={` ${sidebarExpanded ? "menu-item" : "menu-small"}`}>
-          <a href="tasks.html" className="menu-link">
+          <a href="/all-tasks" className="menu-link">
             <i className="menu-icon tf-icons ri-list-check-3"></i>
             {sidebarExpanded && <div data-i18n="Task">Task</div>}
           </a>
@@ -195,7 +195,7 @@ const Sidebar: React.FC = () => {
 
         {/* <!-- Cycle --> */}
         <li className={`${sidebarExpanded ? "menu-item" : "menu-small"}`}>
-          <a href="appraisal-cycle.html" className="menu-link">
+          <a href="/performance-cycle" className="menu-link">
             <i className="menu-icon tf-icons ri-refresh-line"></i>
             {sidebarExpanded && <div data-i18n="Cycle">Cycle</div>}
           </a>
@@ -209,9 +209,8 @@ const Sidebar: React.FC = () => {
               e.preventDefault(); // 🔥 Prevents page reload
               toggleMenu("appraisals");
             }}
-            className={`menu-link  ${
-              openMenu === "appraisals" ? "bg-[#3b2a1f]" : ""
-            }`}>
+            className={`menu-link  ${openMenu === "appraisals" ? "bg-[#3b2a1f]" : ""
+              }`}>
             <i className="menu-icon tf-icons ri-dashboard-2-line"></i>
             {sidebarExpanded && (
               <div data-i18n="Appraisal" className="menu-flex">
@@ -219,9 +218,8 @@ const Sidebar: React.FC = () => {
                 {sidebarExpanded && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`arrow-icon ${
-                      openMenu === "appraisals" ? "open" : ""
-                    }`}
+                    className={`arrow-icon ${openMenu === "appraisals" ? "open" : ""
+                      }`}
                     height="20"
                     width="20"
                     viewBox="0 0 640 640">
@@ -238,13 +236,13 @@ const Sidebar: React.FC = () => {
           {openMenu === "appraisals" && (
             <ul className="submenu">
               <li className="menu-item">
-                <a href="forms.html" className="menu-link listing-style">
+                <a href="/appraisal-forms" className="menu-link listing-style">
                   <span className="circle"></span>
                   <div data-i18n="Appraisal Forms">Appraisal Forms</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="appraisal-activity.html" className="menu-link">
+                <a href="/appraisal-activity" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Appraisal Activities">
                     Appraisal Activities
@@ -263,9 +261,8 @@ const Sidebar: React.FC = () => {
               e.preventDefault(); // 🔥 Prevents page reload
               toggleMenu("competencies");
             }}
-            className={`menu-link  ${
-              openMenu === "competencies" ? "bg-[#3b2a1f]" : ""
-            }`}>
+            className={`menu-link  ${openMenu === "competencies" ? "bg-[#3b2a1f]" : ""
+              }`}>
             <i className="menu-icon tf-icons ri-lightbulb-flash-line"></i>
             {sidebarExpanded && (
               <div data-i18n="Competencies" className="menu-flex">
@@ -273,9 +270,8 @@ const Sidebar: React.FC = () => {
                 {sidebarExpanded && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`arrow-icon ${
-                      openMenu === "competencies" ? "open" : ""
-                    }`}
+                    className={`arrow-icon ${openMenu === "competencies" ? "open" : ""
+                      }`}
                     height="20"
                     width="20"
                     viewBox="0 0 640 640">
@@ -292,13 +288,13 @@ const Sidebar: React.FC = () => {
           {openMenu === "competencies" && (
             <ul className="submenu">
               <li className="menu-item">
-                <a href="competency.html" className="menu-link listing-style">
+                <a href="/competency" className="menu-link listing-style">
                   <span className="circle"></span>
                   <div data-i18n="All Competencies">All Competencies</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="competency-rating.html" className="menu-link">
+                <a href="/competency-rating" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Competency Ratings">Competency Ratings</div>
                 </a>
@@ -309,7 +305,7 @@ const Sidebar: React.FC = () => {
 
         {/* <!-- Feedback --> */}
         <li className={`${sidebarExpanded ? "menu-item" : "menu-small"}`}>
-          <a href="feedback.html" className="menu-link">
+          <a href="/feedback" className="menu-link">
             <i className="menu-icon tf-icons ri-wechat-line"></i>
             {sidebarExpanded && (
               <div data-i18n="360° Feedbacks">360° Feedbacks</div>
@@ -319,7 +315,7 @@ const Sidebar: React.FC = () => {
 
         {/* <!-- Complaint --> */}
         <li className={`${sidebarExpanded ? "menu-item" : "menu-small"}`}>
-          <a href="complaint.html" className="menu-link">
+          <a href="/complaint" className="menu-link">
             <i className="menu-icon tf-icons ri-feedback-line"></i>
             {sidebarExpanded && <div data-i18n="Complaints">Complaints</div>}
           </a>
@@ -333,7 +329,7 @@ const Sidebar: React.FC = () => {
           </a>
         </li>
 
-            {/* Settings */}
+        {/* Settings */}
         <li className={`${sidebarExpanded ? "menu-item" : "menu-small"}`}>
           <a
             href="#"
@@ -341,9 +337,8 @@ const Sidebar: React.FC = () => {
               e.preventDefault(); // 🔥 Prevents page reload
               toggleMenu("settings");
             }}
-            className={`menu-link  ${
-              openMenu === "settings" ? "bg-[#3b2a1f]" : ""
-            }`}>
+            className={`menu-link  ${openMenu === "settings" ? "bg-[#3b2a1f]" : ""
+              }`}>
             <i className="menu-icon tf-icons ri-settings-3-line"></i>
             {sidebarExpanded && (
               <div data-i18n="Setting" className="menu-flex">
@@ -351,9 +346,8 @@ const Sidebar: React.FC = () => {
                 {sidebarExpanded && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`arrow-icon ${
-                      openMenu === "settings" ? "open" : ""
-                    }`}
+                    className={`arrow-icon ${openMenu === "settings" ? "open" : ""
+                      }`}
                     height="20"
                     width="20"
                     viewBox="0 0 640 640">

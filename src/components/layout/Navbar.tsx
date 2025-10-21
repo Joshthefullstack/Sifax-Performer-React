@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import "../../assets/vendor/css/rtl/core.css"
+import "../../assets/css/demo.css"
+import "../../assets/vendor/css/rtl/theme-semi-dark.css"
 import avatar from "../../assets/img/avatars/1.png";
 import { title } from "process";
 

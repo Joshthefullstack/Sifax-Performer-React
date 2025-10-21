@@ -158,7 +158,7 @@ const StaffListContent = () => {
                         id="formAuthentication"
                         method="post"
                         className="p-6"
-                        onSubmit={() => {}}>
+                        onSubmit={() => { }}>
                         <div className="mb-5">
                           <label
                             htmlFor="TypeaheadBasic"
@@ -258,7 +258,7 @@ const StaffListContent = () => {
                         <form
                           className="add-new-user pt-0"
                           id="addNewUserForm"
-                          onSubmit={() => {}}>
+                          onSubmit={() => { }}>
                           <h6>Personal Information</h6>
                           <div className="form-floating form-floating-outline mb-5">
                             <input
@@ -1009,7 +1009,7 @@ const StaffListContent = () => {
                   </p>
                 </div>
                 {/* <!-- Add role form --> */}
-                <form id="addRoleForm" className="row g-3" onSubmit={() => {}}>
+                <form id="addRoleForm" className="row g-3" onSubmit={() => { }}>
                   <div className="col-12">
                     <h5 className="mb-6">Administrator Permissions</h5>
                     {/* <!-- Permission table --> */}
@@ -1437,24 +1437,6 @@ const StaffListContent = () => {
         {/* <!--/ Add Role Modal --> */}
       </div>
       {/* <!-- / Content --> */}
-
-      {/* <!-- Footer --> */}
-      <footer className="content-footer footer bg-footer-theme">
-        <div className="container-xxl">
-          <div className="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
-            <div className="text-body mb-2 mb-md-0">
-              ©<script>document.write(new Date().getFullYear());</script>,
-              <a
-                href="https://imberlabs.ng"
-                target="_blank"
-                className="footer-link">
-                Imberlabs
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/* <!-- / Footer --> */}
 
       <div className="content-backdrop fade"></div>
     </div>

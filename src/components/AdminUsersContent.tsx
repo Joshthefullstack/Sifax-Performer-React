@@ -78,7 +78,7 @@ const AdminUsersContent = () => {
                         id="formAuthentication"
                         method="post"
                         className="p-6"
-                        onSubmit={() => {}}>
+                        onSubmit={() => { }}>
                         <div className="mb-5">
                           <label
                             htmlFor="TypeaheadBasic"
@@ -501,7 +501,7 @@ const AdminUsersContent = () => {
                   </p>
                 </div>
                 {/* <!-- Add role form --> */}
-                <form id="addRoleForm" className="row g-3" onSubmit={() => {}}>
+                <form id="addRoleForm" className="row g-3" onSubmit={() => { }}>
                   <div className="col-12">
                     <h5 className="mb-6">Administrator Permissions</h5>
                     {/* <!-- Permission table --> */}
