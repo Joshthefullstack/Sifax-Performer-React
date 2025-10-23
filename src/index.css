@@ -15,11 +15,23 @@ code {
 }
 
 .width-small{
-  width: 90px;
+  width: 80rem;
+  /* border: 1px solid green; */
 }
 
 .width-big{
   width: 260px;
+  /* border: 1px solid red; */
+}
+
+.width-sm{
+  width: 20px;
+}
+
+
+
+#layout-menu-sm{
+  width: 90px;
 }
 
 .menu-small{
@@ -93,6 +105,15 @@ width: 18px;
   width: 15px;
   height: 15px;
   fill: #fff;
+  transition: transform 0.3s ease;
+}
+
+
+.collapse{
+ width: 24px;
+  height: 24px;
+  fill: #fff;
+  border: 1px solid red;
   transition: transform 0.3s ease;
 }
 
