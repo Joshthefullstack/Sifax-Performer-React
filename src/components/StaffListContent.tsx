@@ -601,7 +601,7 @@ const StaffListContent = () => {
                         <i className="ri-more-2-line"></i>
                       </button>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="staff-detail.html">
+                        <a className="dropdown-item" href="/staff-detail">
                           <i className="ri-eye-line me-1"></i> View Details
                         </a>
                         <a
@@ -673,7 +673,7 @@ const StaffListContent = () => {
                         <i className="ri-more-2-line"></i>
                       </button>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="staff-detail.html">
+                        <a className="dropdown-item" href="/staff-detail">
                           <i className="ri-eye-line me-1"></i> View Details
                         </a>
                         <a
@@ -745,7 +745,7 @@ const StaffListContent = () => {
                         <i className="ri-more-2-line"></i>
                       </button>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="staff-detail.html">
+                        <a className="dropdown-item" href="/staff-detail">
                           <i className="ri-eye-line me-1"></i> View Details
                         </a>
                         <a
@@ -817,7 +817,7 @@ const StaffListContent = () => {
                         <i className="ri-more-2-line"></i>
                       </button>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="staff-detail.html">
+                        <a className="dropdown-item" href="/staff-detail">
                           <i className="ri-eye-line me-1"></i> View Details
                         </a>
                         <a

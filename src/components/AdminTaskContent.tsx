@@ -4,6 +4,7 @@ import avatar5 from "../assets/img/avatars/5.png";
 import avatar6 from "../assets/img/avatars/6.png";
 import avatar9 from "../assets/img/avatars/9.png";
 import pdf from "../assets//img/icons/misc/pdf.png"
+import "../assets/vendor/css/pages/app-chat.css"
 
 
 const AdminTaskContent = () => {

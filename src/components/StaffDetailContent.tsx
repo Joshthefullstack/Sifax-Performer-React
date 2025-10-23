@@ -1,5 +1,5 @@
 import React from 'react';
-import profileBanner from "../assets/img/pages/profile-banner.png";
+import profileBanner from "../assets/img/pages/page-banner2.jpg";
 import avatar1 from "../assets/img/avatars/1.png";
 
 const StaffDetailContent = () => {
