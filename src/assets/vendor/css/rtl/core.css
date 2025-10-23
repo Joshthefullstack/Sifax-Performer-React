@@ -28852,7 +28852,7 @@ html:not([dir=rtl]) .menu-horizontal .menu-inner > .menu-item .menu-sub .menu-to
   border-bottom-left-radius: 0.625rem;
 }
 .layout-navbar-fixed .window-scrolled .layout-navbar.navbar-detached {
-  box-shadow: 0 0.25rem 0.5rem -0.25rem rgba(38, 43, 67, 0.42);
+  box-shadow: 0 0.25rem 0.5rem -0.25rem #262b436b;
   padding: 0 1.5rem;
 }
 .layout-navbar-fixed .window-scrolled .layout-navbar.navbar-detached .search-input:focus {
