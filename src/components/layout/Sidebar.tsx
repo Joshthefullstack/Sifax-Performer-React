@@ -323,7 +323,7 @@ const Sidebar: React.FC = () => {
 
         {/* <!-- Report --> */}
         <li className={`${sidebarExpanded ? "menu-item" : "menu-small"}`}>
-          <a href="reports.html" className="menu-link">
+          <a href="/reports" className="menu-link">
             <i className="menu-icon tf-icons ri-file-chart-line"></i>
             {sidebarExpanded && <div data-i18n="Reports">Reports</div>}
           </a>
@@ -364,31 +364,31 @@ const Sidebar: React.FC = () => {
           {openMenu === "settings" && (
             <ul className="submenu">
               <li className="menu-item">
-                <a href="competency.html" className="menu-link listing-style">
+                <a href="/perspectives" className="menu-link listing-style">
                   <span className="circle"></span>
                   <div data-i18n="Perspectives">Perspectives</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="competency-rating.html" className="menu-link">
+                <a href="/company" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Subsidiaries">Subsidiaries</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="competency-rating.html" className="menu-link">
+                <a href="/departments" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Departments">Departments</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="competency-rating.html" className="menu-link">
+                <a href="/grades" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Grades">Grades</div>
                 </a>
               </li>
               <li className="menu-item">
-                <a href="competency-rating.html" className="menu-link">
+                <a href="/designations" className="menu-link">
                   <span className="circle"></span>
                   <div data-i18n="Designations">Designations</div>
                 </a>

@@ -18,6 +18,7 @@ import CompetencyRating from "./pages/CompetencyRating";
 import Feedback from "./pages/Feedback";
 import Complaint from "./pages/Complaint";
 import ComplaintDetail from "./pages/ComplaintDetail";
+import Perspectives from "./pages/Perspectives";
 // import Profile from "./pages/Profile"; // Example extra route
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Route path="/feedback" element={<Feedback />} />
       <Route path="/complaint" element={<Complaint />} />
       <Route path="/complaint-detail" element={<ComplaintDetail />} />
+      <Route path="/perspectives" element={<Perspectives />} />
     </Routes>
   );
 }

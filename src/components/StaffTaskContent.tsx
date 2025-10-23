@@ -28,11 +28,14 @@ const StaffTaskContent = () => {
                                         className="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-5 flex-md-row flex-column gap-6">
                                         <div className="user-profile-info">
                                             <h4 className="mb-0">Oluwakayode Alonge</h4>
-                                            <div className="d-flex">
+                                            <ul className="list-inline mb-2 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-0">
+                                               <li className="list-inline-item text-body">
                                                 <small className="mb-2 me-3">SAH0123</small>
+                                                </li> 
+                                               <li className="list-inline-item text-body">
                                                 <small>General Manager Step 4</small>
-
-                                            </div>
+                                                </li> 
+                                            </ul>
                                             <ul
                                                 className="list-inline mb-0 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-4">
                                                 <li className="list-inline-item">
@@ -249,13 +252,13 @@ const StaffTaskContent = () => {
                         <div className="nav-align-top">
                             <ul className="nav nav-pills flex-column flex-sm-row mb-6 row-gap-2">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="staff-detail.html"><i className="ri-menu-search-line me-2"></i>Details</a>
+                                    <a className="nav-link" href="/staff-detail"><i className="ri-menu-search-line me-2"></i>Details</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="staff-task.html"><i className="ri-list-check-3 me-2"></i>Tasks</a>
+                                    <a className="nav-link active" href="/staff-task"><i className="ri-list-check-3 me-2"></i>Tasks</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="staff-competency.html"><i className="ri-lightbulb-flash-line me-2"></i>Competencies</a>
+                                    <a className="nav-link" href="/staff-competency"><i className="ri-lightbulb-flash-line me-2"></i>Competencies</a>
                                 </li>
                             </ul>
                         </div>
