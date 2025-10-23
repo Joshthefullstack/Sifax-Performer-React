@@ -361,577 +361,584 @@ const StaffDetailContent = () => {
                     {/* <!--/ Popular Instructors --> */}
 
                     {/* <!-- Top Courses --> */}
-                    <div className="col-xl-8 col-lg-7 col-md-7">
-                        <h4 className="card-action-title mb-0">
-                            <i className="ri-focus-2-line ri-24px text-body me-4"></i>KPI Overview</h4>
-                        <div className="row mb-4">
-                            <div className="col-12">
-                                <div className="card card-action mb-3 bordered">
-                                    <div className="card-header header-elements border-bottom">
-                                        <h6 className="card-action-title mb-0">Finance</h6>
-                                        <div className="card-header-elements ms-auto me-3">
-                                            <div className="me-1">
-                                                <div className="progress bg-label-success" style={{ width: "100px" }}>
-                                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                        role="progressbar" style={{ width: "100%" }}
-                                                        aria-valuenow={100}
-                                                        aria-valuemin={0}
-                                                        aria-valuemax={100}></div>
-                                                </div>
-                                            </div>
-                                            <span className="me-4">100%</span>
-                                            <span className="badge bg-label-success rounded-pill">Completed</span>
+                  <div className="col-xl-8 col-lg-7 col-md-7">
+                    <h4 className="card-action-title mb-0">
+                      <i className="ri-focus-2-line ri-24px text-body me-4"></i>KPI Overview</h4>
+                      <div className="row mb-4">
+                        <div className="col-12">
+                            <div className="card card-action mb-3 bordered">
+                                <div className="card-header header-elements border-bottom">
+                                  <h6 className="card-action-title mb-0">Finance</h6>
+                                    <div className="card-header-elements ms-auto me-3">
+                                        <div className="me-1">
+                                          <div className="progress bg-label-success" style={{width: "100px"}}>
+                                            <div
+                                              className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                              role="progressbar"
+                                              style={{width: "100%"}}
+                                              aria-valuenow={100}
+                                              aria-valuemin={0}
+                                              aria-valuemax={100}></div>
+                                          </div>
                                         </div>
-                                        <div className="card-action-element">
-                                            <ul className="list-inline mb-0">
-                                                <li className="list-inline-item">
-                                                    <a href="javascript:void(0);" className="card-collapsible"
-                                                    ><i className="tf-icons ri-arrow-up-s-line"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <span className="me-4">100%</span>
+                                        <span className="badge bg-label-success rounded-pill">Completed</span>
                                     </div>
-                                    <div className="collapse show">
-                                        <div className="card-body pt-4">
-                                            <div className="list-group list-group-flush">
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-success me-1"></span>
-                                                                        <small>Complete</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-success" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                  <div className="card-action-element">
+                                    <ul className="list-inline mb-0">
+                                      <li className="list-inline-item">
+                                        <a href="javascript:void(0);" className="card-collapsible"
+                                          ><i className="tf-icons ri-arrow-up-s-line"></i
+                                        ></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div className="collapse show">
+                                  <div className="card-body pt-4">
+                                    <div className="list-group list-group-flush">
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-success me-1"></span>
+                                                    <small>Complete</small>
+                                                  </div>
                                                 </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>2500</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-warning me-1"></span>
-                                                                        <small>Behind</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-warning" style={{ width: "100px" }}>
-                                                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>10,900</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-primary me-1"></span>
-                                                                        <small>On Track</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-primary" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>75%</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-danger me-1"></span>
-                                                                        <small>Overdue</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-danger" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                                        role="progressbar"
-                                                                        style={{ width: "30%" }}
-                                                                        aria-valuenow={30}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-success" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
                                             </div>
+                                          </div>
                                         </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>2500</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-warning me-1"></span>
+                                                    <small>Behind</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-warning" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>10,900</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-primary me-1"></span>
+                                                    <small>On Track</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-primary" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>75%</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-danger me-1"></span>
+                                                    <small>Overdue</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-danger" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar"
+                                                    style={{width: "30%"}}
+                                                    aria-valuenow={30}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>  
+                                </div>
+                                </div>
+                            </div>
+                            <div className="card card-action mb-3 bordered">
+                                <div className="card-header header-elements border-bottom">
+                                  <h6 className="card-action-title mb-0">Internal Processes</h6>
+                                    <div className="card-header-elements ms-auto me-3">
+                                        <div className="me-1">
+                                          <div className="progress bg-label-danger" style={{width: "100px"}}>
+                                            <div
+                                              className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                              role="progressbar"
+                                                    style={{width: "25%"}}
+                                                    aria-valuenow={25}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                          </div>
+                                        </div>
+                                        <span className="me-4">25%</span>
+                                        <span className="badge bg-label-danger rounded-pill">Overdue</span>
+                                    </div>
+                                  <div className="card-action-element">
+                                    <ul className="list-inline mb-0">
+                                      <li className="list-inline-item">
+                                        <a href="javascript:void(0);" className="card-collapsible"
+                                          ><i className="tf-icons ri-arrow-up-s-line"></i></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div className="collapse show">
+                                  <div className="card-body pt-4">
+                                    <div className="list-group list-group-flush">
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-success me-1"></span>
+                                                    <small>Complete</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-success" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>2500</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-warning me-1"></span>
+                                                    <small>Behind</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-warning" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>10,900</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-primary me-1"></span>
+                                                    <small>On Track</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-primary" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>75%</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-danger me-1"></span>
+                                                    <small>Overdue</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-danger" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped prsogress-bar-animated bg-danger"
+                                                    role="progressbar"
+                                                    style={{width: "30%"}}
+                                                    aria-valuenow={30}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>  
                                     </div>
                                 </div>
-                                <div className="card card-action mb-3 bordered">
-                                    <div className="card-header header-elements border-bottom">
-                                        <h6 className="card-action-title mb-0">Internal Processes</h6>
-                                        <div className="card-header-elements ms-auto me-3">
-                                            <div className="me-1">
-                                                <div className="progress bg-label-danger" style={{ width: "100px" }}>
-                                                    <div
-                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                        role="progressbar"
-                                                        style={{ width: "25%" }}
-                                                        aria-valuenow={25}
-                                                        aria-valuemin={0}
-                                                        aria-valuemax={100}></div>
-                                                </div>
-                                            </div>
-                                            <span className="me-4">25%</span>
-                                            <span className="badge bg-label-danger rounded-pill">Overdue</span>
+                            </div>
+                            <div className="card card-action mb-3 bordered">
+                                <div className="card-header header-elements border-bottom">
+                                  <h6 className="card-action-title mb-0">Customer Services</h6>
+                                    <div className="card-header-elements ms-auto me-3">
+                                        <div className="me-1">
+                                          <div className="progress bg-label-primary" style={{width: "100px"}}>
+                                            <div
+                                              className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                              role="progressbar"
+                                                    style={{width: "64%"}}
+                                                    aria-valuenow={64}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                          </div>
                                         </div>
-                                        <div className="card-action-element">
-                                            <ul className="list-inline mb-0">
-                                                <li className="list-inline-item">
-                                                    <a href="javascript:void(0);" className="card-collapsible"
-                                                    ><i className="tf-icons ri-arrow-up-s-line"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <span className="me-4">64%</span>
+                                        <span className="badge bg-label-primary rounded-pill">On Track</span>
                                     </div>
-                                    <div className="collapse hide">
-                                        <div className="card-body pt-4">
-                                            <div className="list-group list-group-flush">
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-success me-1"></span>
-                                                                        <small>Complete</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-success" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                  <div className="card-action-element">
+                                    <ul className="list-inline mb-0">
+                                      <li className="list-inline-item">
+                                        <a href="javascript:void(0);" className="card-collapsible"
+                                          ><i className="tf-icons ri-arrow-up-s-line"></i></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div className="collapse hide">
+                                  <div className="card-body pt-4">
+                                    <div className="list-group list-group-flush">
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-success me-1"></span>
+                                                    <small>Complete</small>
+                                                  </div>
                                                 </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>2500</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-warning me-1"></span>
-                                                                        <small>Behind</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-warning" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>10,900</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-primary me-1"></span>
-                                                                        <small>On Track</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-primary" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>75%</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-danger me-1"></span>
-                                                                        <small>Overdue</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-danger" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                                        role="progressbar"
-                                                                        style={{ width: "30%" }}
-                                                                        aria-valuenow={30}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-success" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
                                             </div>
+                                          </div>
                                         </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>2500</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-warning me-1"></span>
+                                                    <small>Behind</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-warning" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>10,900</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-primary me-1"></span>
+                                                    <small>On Track</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-primary" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>75%</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-danger me-1"></span>
+                                                    <small>Overdue</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-danger" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar"
+                                                    style={{width: "30%"}}
+                                                    aria-valuenow={30}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>  
                                     </div>
                                 </div>
-                                <div className="card card-action mb-3 bordered">
-                                    <div className="card-header header-elements border-bottom">
-                                        <h6 className="card-action-title mb-0">Customer Services</h6>
-                                        <div className="card-header-elements ms-auto me-3">
-                                            <div className="me-1">
-                                                <div className="progress bg-label-primary" style={{ width: "100px" }}>
-                                                    <div
-                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-                                                        role="progressbar"
-                                                        style={{ width: "64%" }}
-                                                        aria-valuenow={64}
-                                                        aria-valuemin={0}
-                                                        aria-valuemax={100}></div>
-                                                </div>
-                                            </div>
-                                            <span className="me-4">64%</span>
-                                            <span className="badge bg-label-primary rounded-pill">On Track</span>
+                            </div>
+                            <div className="card card-action mb-3 bordered">
+                                <div className="card-header header-elements border-bottom">
+                                  <h6 className="card-action-title mb-0">People Learning & Growth</h6>
+                                    <div className="card-header-elements ms-auto me-3">
+                                        <div className="me-1">
+                                          <div className="progress bg-label-warning" style={{width: "100px"}}>
+                                            <div
+                                              className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                              role="progressbar"
+                                                    style={{width: "53%"}}
+                                                    aria-valuenow={53}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                          </div>
                                         </div>
-                                        <div className="card-action-element">
-                                            <ul className="list-inline mb-0">
-                                                <li className="list-inline-item">
-                                                    <a href="javascript:void(0);" className="card-collapsible"
-                                                    ><i className="tf-icons ri-arrow-up-s-line"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <span className="me-4">53%</span>
+                                        <span className="badge bg-label-primary rounded-pill">Behind</span>
                                     </div>
-                                    <div className="collapse hide">
-                                        <div className="card-body pt-4">
-                                            <div className="list-group list-group-flush">
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-success me-1"></span>
-                                                                        <small>Complete</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-success" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>2500</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-warning me-1"></span>
-                                                                        <small>Behind</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-warning" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>10,900</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-primary me-1"></span>
-                                                                        <small>On Track</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-primary" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>75%</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-danger me-1"></span>
-                                                                        <small>Overdue</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-danger" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                                        role="progressbar"
-                                                                        style={{ width: "30%" }}
-                                                                        aria-valuenow={30}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                  <div className="card-action-element">
+                                    <ul className="list-inline mb-0">
+                                      <li className="list-inline-item">
+                                        <a href="javascript:void(0);" className="card-collapsible"
+                                          ><i className="tf-icons ri-arrow-up-s-line"></i></a>
+                                      </li>
+                                    </ul>
+                                  </div>
                                 </div>
-                                <div className="card card-action mb-3 bordered">
-                                    <div className="card-header header-elements border-bottom">
-                                        <h6 className="card-action-title mb-0">People Learning & Growth</h6>
-                                        <div className="card-header-elements ms-auto me-3">
-                                            <div className="me-1">
-                                                <div className="progress bg-label-warning" style={{ width: "100px" }}>
-                                                    <div
-                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                                        role="progressbar"
-                                                        style={{ width: "53%" }}
-                                                        aria-valuenow={53}
-                                                        aria-valuemin={0}
-                                                        aria-valuemax={100}></div>
+                                <div className="collapse hide">
+                                  <div className="card-body pt-4">
+                                    <div className="list-group list-group-flush">
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-success me-1"></span>
+                                                    <small>Complete</small>
+                                                  </div>
                                                 </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-success" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
                                             </div>
-                                            <span className="me-4">53%</span>
-                                            <span className="badge bg-label-primary rounded-pill">Behind</span>
+                                          </div>
                                         </div>
-                                        <div className="card-action-element">
-                                            <ul className="list-inline mb-0">
-                                                <li className="list-inline-item">
-                                                    <a href="javascript:void(0);" className="card-collapsible"
-                                                    ><i className="tf-icons ri-arrow-up-s-line"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="collapse hide">
-                                        <div className="card-body pt-4">
-                                            <div className="list-group list-group-flush">
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Danish sesame snaps halvah</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>₦200,000,000</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-success me-1"></span>
-                                                                        <small>Complete</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-success" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>2500</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-warning me-1"></span>
+                                                    <small>Behind</small>
+                                                  </div>
                                                 </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Cake halvah biscuit cheesecake</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>2500</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-warning me-1"></span>
-                                                                        <small>Behind</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-warning" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>10,900</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-primary me-1"></span>
-                                                                        <small>On Track</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-primary" style={{ width: "100px" }}>
-                                                                    <div
-                                                                        className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-                                                                        role="progressbar"
-                                                                        style={{ width: "75%" }}
-                                                                        aria-valuenow={75}
-                                                                        aria-valuemin={0}
-                                                                        aria-valuemax={100}></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
-                                                    <div className="w-100">
-                                                        <div className="d-flex justify-content-between align-items-center">
-                                                            <div className="user-info">
-                                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
-                                                                <div className="d-flex align-items-center">
-                                                                    <small className="me-2"><strong>Target: </strong>75%</small>
-                                                                    <div className="user-status d-flex align-items-center">
-                                                                        <span className="badge badge-dot bg-danger me-1"></span>
-                                                                        <small>Overdue</small>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="add-btn">
-                                                                <div className="progress bg-label-danger" style={{ width: "100px" }}>
-                                                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-                                                                        role="progressbar" style={{ width: "30%" }} aria-valuenow={30} aria-valuemin={0}
-                                                                        aria-valuemax={100}>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-warning" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
                                             </div>
+                                          </div>
                                         </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Tart cheesecake jujubes caramels</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>10,900</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-primary me-1"></span>
+                                                    <small>On Track</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-primary" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar"
+                                                    style={{width: "75%"}}
+                                                    aria-valuenow={75}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
+                                          <div className="w-100">
+                                            <div className="d-flex justify-content-between align-items-center">
+                                              <div className="user-info">
+                                                <h6 className="mb-1 fw-normal">Icing sweet gummies</h6>
+                                                <div className="d-flex align-items-center">
+                                                  <small className="me-2"><strong>Target: </strong>75%</small>
+                                                  <div className="user-status d-flex align-items-center">
+                                                    <span className="badge badge-dot bg-danger me-1"></span>
+                                                    <small>Overdue</small>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div className="add-btn">
+                                                <div className="progress bg-label-danger" style={{width: "100px"}}>
+                                                  <div
+                                                    className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar"
+                                                    style={{width: "30%"}}
+                                                    aria-valuenow={30}
+                                                    aria-valuemin={0}
+                                                    aria-valuemax={100}></div>
+                                                </div>    
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>  
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
+                      </div>
+                      
+                  </div>
                     {/* <!--/ Top Courses --> */}
                 </div>
                 {/* <!--/ User Profile Content --> */}
