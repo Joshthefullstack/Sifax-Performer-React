@@ -8,7 +8,7 @@ import Accordion, { AccordionItemData } from "../components/Accordion";
 
 const StaffDetailContent = () => {
 
-    const financeItems: AccordionItemData[] = [
+    const accordionItems: AccordionItemData[] = [
       {
         id: "finance-1",
         title: "Finance",
@@ -1091,11 +1091,7 @@ const StaffDetailContent = () => {
             </h4>
             <div className="row mb-4">
               <div className="col-12">
-            
-
-                <Accordion items={financeItems} />
-
-
+                <Accordion items={accordionItems} />
               </div>
             </div>
           </div>
