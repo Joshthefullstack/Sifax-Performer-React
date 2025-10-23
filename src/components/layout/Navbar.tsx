@@ -3,6 +3,7 @@ import "../../assets/vendor/css/rtl/core.css"
 import "../../assets/css/demo.css"
 import "../../assets/vendor/css/rtl/theme-semi-dark.css"
 import avatar from "../../assets/img/avatars/1.png";
+import avatar2 from "../../assets/img/avatars/2.png";
 import { title } from "process";
 
 const Navbar = () => {
@@ -41,13 +42,37 @@ const Navbar = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  const typeofNotifics = [
+    "connection-request",
+    "new-message",
+    "congratulatory-message",
+    "new-order",
+    "report-generated"
+  ];
   const notificationData = [
     {
-      title: "",
-      timestamp: "",
-      type: "",
+      title: "Congratulations, Lettie",
+      detail: "Won the monthly best seller gold badge",
+      timestamp: "1h ago",
+      type: "congratulatory-message",
       unRead: false,
-      imgURL: "",
+      imgURL: avatar,
+    },
+    {
+      title: "Charles Franklin",
+      detail: "Accepted your connection",
+      timestamp: "12h ago",
+      type: "connection-request",
+      unRead: false,
+      imgURL: avatar,
+    },
+    {
+      title: "New Message",
+      detail: "You have new message from Natalie",
+      timestamp: "1h ago",
+      type: "new-message",
+      unRead: false,
+      imgURL: avatar2,
     },
   ];
 
@@ -92,7 +117,7 @@ const Navbar = () => {
                     <h6 className="mb-0 me-auto">Notification</h6>
                     <div className="d-flex align-items-center">
                       <span className="badge rounded-pill bg-label-primary fs-xsmall me-2">
-                        8 New
+                        {`${notificationData.length} New`}
                       </span>
                       <a
                         href="#"
@@ -104,9 +129,11 @@ const Navbar = () => {
                   </div>
                 </li>
 
+                {/* There is a classname for it to be marked as read */}
+
                 <li className="dropdown-notifications-list scrollable-container">
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action dropdown-notifications-item">
+                    {/* <li className="list-group-item list-group-item-action dropdown-notifications-item">
                       <div className="d-flex">
                         <div className="flex-shrink-0 me-3">
                           <div className="avatar">
@@ -395,7 +422,43 @@ const Navbar = () => {
                           </a>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
+
+                    {notificationData.map((notification, key) => {
+                      return (
+                         <li className={`list-group-item list-group-item-action dropdown-notifications-item ${
+                        notification.unRead ? "" : "marked-as-read"
+                      }`}>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0 me-3">
+                      <div className="avatar">
+                        <img src={notification.imgURL} alt="" className="rounded-circle" />
+                        {/* I should specify, that just incase the user doesn't have a profile picture, something else should show. */}
+                      </div>
+                    </div>
+                    <div className="flex-grow-1">
+                      <h6 className="small mb-1">{notification.title}</h6>
+                      <small className="mb-1 d-block text-body">
+                        {notification.detail}
+                      </small>
+                      <small className="text-muted">{notification.timestamp}</small>
+                    </div>
+                    <div className="flex-shrink-0 dropdown-notifications-actions">
+                      <a
+                        href="javascript:void(0)"
+                        className="dropdown-notifications-read">
+                        <span className="badge badge-dot"></span>
+                      </a>
+                      <a
+                        href="javascript:void(0)"
+                        className="dropdown-notifications-archive">
+                        <span className="ri-close-line ri-20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </li> 
+                      );
+                    })}
                   </ul>
                 </li>
 
