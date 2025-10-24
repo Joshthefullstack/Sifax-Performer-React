@@ -1,6 +1,6 @@
 import React from 'react'
-import avatar2 from "../../assets/img/avatars/2.png"
-import CompanyImg from "assets/img/illustrations/subsidiary.png"
+import avatar2 from "../assets/img/avatars/2.png"
+import CompanyImg from "../assets/img/illustrations/subsidiary.png"
 const CompanyContent = () => {
   return (
           <div className="content-wrapper">

@@ -49,7 +49,6 @@ const StaffDetailContent = () => {
                     </div>
                   </div>
                 </div>
-<<<<<<< HEAD
                 {/* <!--/ Header --> */}
 
                 {/* <!-- Navbar pills --> */}
@@ -752,9 +751,7 @@ const StaffDetailContent = () => {
                     {/* <!--/ Top Courses --> */}
                 </div>
                 {/* <!--/ User Profile Content --> */}
-=======
               </div>
->>>>>>> 92a80f13b7a486ef76737d1f308f361a6ffa7d81
             </div>
             <div className="list-group-item list-group-item-action d-flex align-items-center cursor-pointer">
               <div className="w-100">
