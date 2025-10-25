@@ -30,12 +30,14 @@ import DepartmentMembers from "./pages/DepartmentMembers";
 import CompanyDetail from "./pages/CompanyDetail";
 import CompanyDepartments from "./pages/CompanyDepartments";
 import CompanyStaff from "./pages/CompanyStaff";
+import Login from "./pages/Login";
 // import Profile from "./pages/Profile"; // Example extra route
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/staff" element={<StaffList />} />
       <Route path="/admin-users" element={<AdminUsers />} />
       <Route path="/all-tasks" element={<Tasks />} />
@@ -48,7 +50,10 @@ function App() {
       <Route path="/operational-forms" element={<OperationalForm />} />
       <Route path="/blank-forms" element={<BlankForm />} />
       <Route path="/appraisal-activities" element={<AppraisalActivities />} />
-      <Route path="/appraisal-activity-detail" element={<AppraisalActivityDetail />} />
+      <Route
+        path="/appraisal-activity-detail"
+        element={<AppraisalActivityDetail />}
+      />
       <Route path="/competency" element={<Competency />} />
       <Route path="/competency-rating" element={<CompetencyRating />} />
       <Route path="/feedback" element={<Feedback />} />
