@@ -8,8 +8,6 @@ import Accordion, { AccordionItemData } from "../components/Accordion";
 
 const StaffDetailContent = () => {
 
-
-   
   return (
     <div className="content-wrapper">
       {/* <!-- Content --> */}

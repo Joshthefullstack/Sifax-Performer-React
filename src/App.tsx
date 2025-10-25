@@ -19,6 +19,17 @@ import Feedback from "./pages/Feedback";
 import Complaint from "./pages/Complaint";
 import ComplaintDetail from "./pages/ComplaintDetail";
 import Perspectives from "./pages/Perspectives";
+import Company from "./pages/Company";
+import Departments from "./pages/Departments";
+import Grades from "./pages/Grades";
+import Designation from "./pages/Designation";
+import AppraisalRating from "./pages/AppraisalRating";
+import DepartmentDetail from "./pages/DepartmentDetail";
+import DepartmentTask from "./pages/DepartmentTask";
+import DepartmentMembers from "./pages/DepartmentMembers";
+import CompanyDetail from "./pages/CompanyDetail";
+import CompanyDepartments from "./pages/CompanyDepartments";
+import CompanyStaff from "./pages/CompanyStaff";
 // import Profile from "./pages/Profile"; // Example extra route
 
 function App() {
@@ -44,6 +55,17 @@ function App() {
       <Route path="/complaint" element={<Complaint />} />
       <Route path="/complaint-detail" element={<ComplaintDetail />} />
       <Route path="/perspectives" element={<Perspectives />} />
+      <Route path="/company" element={<Company />} />
+      <Route path="/company-detail" element={<CompanyDetail />} />
+      <Route path="/company-departments" element={<CompanyDepartments />} />
+      <Route path="/company-staff" element={<CompanyStaff />} />
+      <Route path="/departments" element={<Departments />} />
+      <Route path="/department-members" element={<DepartmentMembers />} />
+      <Route path="/department-detail" element={<DepartmentDetail />} />
+      <Route path="/department-tasks" element={<DepartmentTask />} />
+      <Route path="/grades" element={<Grades />} />
+      <Route path="/designations" element={<Designation />} />
+      <Route path="/appraisal-rating" element={<AppraisalRating />} />
     </Routes>
   );
 }
