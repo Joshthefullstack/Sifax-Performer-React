@@ -8,8 +8,6 @@ import Accordion, { AccordionItemData } from "../components/Accordion";
 
 const StaffDetailContent = () => {
 
-    
-  
 
    
   return (
@@ -961,10 +959,10 @@ const accordionItems: AccordionItemData[] = [
     ),
   },
   {
-    id: "people-1",
-    title: "Customer Service",
-    percent: 64,
-    badgeText: "On Track",
+    id: "people-learning-growth-1",
+    title: "People Learning & Growth",
+    percent: 53,
+    badgeText: "Behind",
     badgeClass: "bg-label-primary",
     children: (
       <div className="list-group list-group-flush">

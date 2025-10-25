@@ -21,6 +21,8 @@ code {
 
 .width-big{
   width: 260px;
+    transition: width 0.3s ease;
+
   /* border: 1px solid red; */
 }
 
@@ -28,7 +30,16 @@ code {
   width: 20px;
 }
 
+.layout-page {
+  margin-left: 80px;
+  transition: margin-left 0.3s ease;
+}
 
+
+
+#layout-menu-sm:not(:hover) ~ .layout-page {
+  margin-left: 10px;
+}
 
 #layout-menu-sm{
   width: 90px;

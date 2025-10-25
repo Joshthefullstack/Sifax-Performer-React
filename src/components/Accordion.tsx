@@ -100,6 +100,17 @@ const AccordionPanel: React.FC<PanelProps> = ({ data, isOpen, onToggle }) => {
     return () => window.removeEventListener("resize", onResize);
   }, [isOpen, height]);
 
+ const progressBarLabel =
+   data.percent >= 90
+     ? "success"
+     : data.percent >= 60
+     ? "primary"
+     : data.percent >= 50
+     ? "warning"
+     : data.percent >= 20
+     ? "danger"
+     : "success";
+
   return (
     <div className="card card-action mb-3 bordered">
       <div className="card-header header-elements border-bottom">
@@ -108,10 +119,10 @@ const AccordionPanel: React.FC<PanelProps> = ({ data, isOpen, onToggle }) => {
         <div className="card-header-elements ms-auto me-3 d-flex align-items-center">
           <div className="me-2" style={{ width: 120 }}>
             <div
-              className="progress bg-label-success"
+              className={`progress bg-label-${progressBarLabel}`}
               style={{ width: "100%" }}>
               <div
-                className="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                className={`progress-bar progress-bar-striped progress-bar-animated bg-${progressBarLabel}`}
                 role="progressbar"
                 style={{ width: `${data.percent}%` }}
                 aria-valuenow={data.percent}
