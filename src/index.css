@@ -35,10 +35,8 @@ code {
   transition: margin-left 0.3s ease;
 }
 
-
-
 #layout-menu-sm:not(:hover) ~ .layout-page {
-  margin-left: 10px;
+  margin-left: -70px;
 }
 
 #layout-menu-sm{
@@ -281,4 +279,127 @@ width: 18px;
 /* small responsive niceties */
 @media (max-width: 900px) {
   .card-header-elements { display: none; }
+}
+
+
+
+.user-tag-input {
+  position: relative;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.selected-users {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  cursor: text;
+}
+
+.user-pill {
+  display: flex;
+  align-items: center;
+  background: #eef3ff;
+  border-radius: 20px;
+  padding: 3px 8px 3px 3px;
+  font-size: 0.9rem;
+}
+
+.user-pill img {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.user-pill button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #888;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.user-pill button:hover {
+  color: #333;
+}
+
+.selected-users input {
+  flex: 1;
+  border: none;
+  outline: none;
+  min-width: 100px;
+  padding: 6px;
+  font-size: 1rem;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  /* margin-top: 4px; */
+  list-style: none;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-dropdown{
+  padding-left: 0px;
+}
+
+.user-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.user-dropdown li:hover {
+  background: #e27225;
+  color: #fff;
+}
+
+.user-dropdown img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.user-dropdown strong {
+  display: block;
+}
+
+.user-dropdown small {
+  /* color: #777; */
+  font-size: 0.8rem;
+}
+.user-dropdown .no-users {
+  padding: 8px;
+  /* color: #777; */
+  text-align: center;
+}
+
+.all-btn{
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.all-btn:hover{
+  background-color: #e27225;
+  color: #fff;
 }
