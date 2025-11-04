@@ -1,7 +1,14 @@
 import React from 'react';
 import avatar2 from "../assets/img/avatars/2.png";
+// @ts-ignore
+import Tags from "@yaireo/tagify/dist/react.tagify";
+import "@yaireo/tagify/dist/tagify.css";
+import AddSupervisorOffcanvas from './AddSupervisorOffCanvas';
+
 
 const StaffListContent = () => {
+
+
   return (
     <div className="content-wrapper">
       {/* <!-- Content --> */}
@@ -918,7 +925,7 @@ const StaffListContent = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="offcanvas offcanvas-end"
           tabIndex={-1}
           id="offcanvasSupervisor"
@@ -973,7 +980,7 @@ const StaffListContent = () => {
                     id="TagifyUserList"
                     name="TagifyUserList"
                     className="form-control h-auto"
-                    value="abc@sifax.com, Justinian Hattersley"
+                    value="abc@sifax.com, Justinian"
                   />
                   <label htmlFor="TagifyUserList">Users List</label>
                 </div>
@@ -983,7 +990,9 @@ const StaffListContent = () => {
               Submit
             </button>
           </div>
-        </div>
+        </div> */}
+
+        <AddSupervisorOffcanvas/>
 
         {/* <!-- Add Role Modal --> */}
         <div
