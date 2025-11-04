@@ -43,6 +43,29 @@ code {
   width: 90px;
 }
 
+/* Sidebar scroll behavior */
+#layout-menu,
+#layout-menu-sm {
+  max-height: 100vh;         /* Full viewport height */
+  overflow-y: auto;           /* Enable vertical scroll if needed */
+  overflow-x: hidden;         /* Prevent horizontal scroll */
+  scrollbar-width: thin;      /* (Firefox) thinner scrollbar */
+  scrollbar-color: #999 transparent; /* Optional aesthetic */
+}
+
+/* Optional — smooth scroll on mouse wheel */
+#layout-menu::-webkit-scrollbar,
+#layout-menu-sm::-webkit-scrollbar {
+  width: 6px;
+}
+
+#layout-menu::-webkit-scrollbar-thumb,
+#layout-menu-sm::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 10px;
+}
+
+
 .menu-small{
   width: 38px;
   /* padding: 4px 4px; */
