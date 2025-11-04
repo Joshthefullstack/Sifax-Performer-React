@@ -31,6 +31,10 @@ import CompanyDetail from "./pages/CompanyDetail";
 import CompanyDepartments from "./pages/CompanyDepartments";
 import CompanyStaff from "./pages/CompanyStaff";
 import Login from "./pages/Login";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
+import UserAccount from "./pages/UserAccount";
+import UserSecurity from "./pages/UserSecurity";
 // import Profile from "./pages/Profile"; // Example extra route
 
 function App() {
@@ -38,6 +42,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/staff" element={<StaffList />} />
       <Route path="/admin-users" element={<AdminUsers />} />
       <Route path="/all-tasks" element={<Tasks />} />
@@ -71,6 +76,9 @@ function App() {
       <Route path="/grades" element={<Grades />} />
       <Route path="/designations" element={<Designation />} />
       <Route path="/appraisal-rating" element={<AppraisalRating />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
+      <Route path="/user-account" element={<UserAccount />} />
+      <Route path="/user-security" element={<UserSecurity />} />
     </Routes>
   );
 }

@@ -76,19 +76,19 @@ const Login = () => {
                   <input className="form-check-input" type="checkbox" id="remember-me" />
                   <label className="form-check-label" htmlFor="remember-me"> Remember Me </label>
                 </div>
-                <a href="forgot-password.html" className="float-end mb-1 mt-2">
+                <a href="/forgot-password" className="float-end mb-1 mt-2">
                   <span>Forgot Password?</span>
                 </a>
               </div>
               <button className="btn btn-primary d-grid w-100">Sign in</button>
             </form>
 
-          <p className="text-center">
+          {/* <p className="text-center">
               <span>New on our platform?</span>
               <a href="auth-register-cover.html">
                 <span>Create an account</span>
               </a>
-            </p>
+            </p> */}
 
           </div>
         </div>
